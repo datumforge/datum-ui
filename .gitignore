@@ -39,5 +39,3 @@ dist/
 # vscode
 .vscode/
 
-# Sentry Config File
-.sentryclirc
