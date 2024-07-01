@@ -11,7 +11,7 @@
   "dependencies": {
     "@repo/dally": "workspace:*",
     "@repo/ui": "workspace:*",
-    "lucide-react": "^0.395.0",
+    "lucide-react": "^0.400.0",
     "next": "latest",
     "nextra": "latest",
     "nextra-theme-docs": "latest",

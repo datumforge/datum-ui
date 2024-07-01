@@ -69,7 +69,7 @@
     "@storybook/react": "latest",
     "@tanstack/react-table": "^8.17.3",
     "class-variance-authority": "^0.7.0",
-    "lucide-react": "^0.395.0",
+    "lucide-react": "^0.400.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-hook-form": "^7.51.5",
