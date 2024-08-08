@@ -12,7 +12,7 @@
     "@sanity/assist": "3.0.5",
     "@sanity/icons": "3.3.1",
     "@sanity/image-url": "1.0.2",
-    "@sanity/presentation": "1.16.2",
+    "@sanity/presentation": "1.16.3",
     "@sanity/preview-url-secret": "1.6.19",
     "@sanity/cli": "3.52.4",
     "@sanity/vision": "3.52.4",
