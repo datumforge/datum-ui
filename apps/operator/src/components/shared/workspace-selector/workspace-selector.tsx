@@ -76,11 +76,24 @@ export const WorkspaceSelector = () => {
     }
   }
 
-  // if there is only one non-personal workspace, show the logo instead of the dropdown
-  if (nonPersonalOrgs.length <= 1) {
+  // if there are no workspaces, return the logo
+  if (nonPersonalOrgs.length === 0) {
     return (
       <Link href={'/'} className={logoWrapper()}>
         <Logo width={115} theme="dark" />
+      </Link>
+    )
+  }
+
+  // if there is only one workspace, return the logo with the workspace name
+  if (nonPersonalOrgs.length === 1) {
+    return (
+      <Link href={'/'} className={logoWrapper()}>
+        <Logo width={30} asIcon theme="blackberryLight" />
+        <div>
+          <div className={workspaceLabel()}>Workspace:</div>
+          <span>{activeOrg?.displayName}</span>
+        </div>
       </Link>
     )
   }
