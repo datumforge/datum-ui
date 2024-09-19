@@ -44,7 +44,7 @@
     "autoprefixer": "latest",
     "clsx": "latest",
     "eslint": "latest",
-    "next-sanity": "9.4.3",
+    "next-sanity": "9.5.0",
     "postcss": "latest",
     "tailwindcss": "latest",
     "tailwind-variants": "^0.2.1",
