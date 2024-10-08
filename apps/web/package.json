@@ -18,7 +18,7 @@
     "@sanity/vision": "3.52.4",
     "@repo/dally": "workspace:*",
     "@repo/ui": "workspace:*",
-    "lucide-react": "^0.424.0",
+    "lucide-react": "^0.451.0",
     "@hookform/resolvers": "^3.3.4",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
